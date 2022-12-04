@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-    $title = "LOGIN";
+    $title = "Log in ";
     include 'include/head.php';
 ?>
 <body
@@ -15,14 +15,14 @@
                 <form action="#">
                     <div class="flex flex-col mb-6">
                         <div class="relative">
-                        <input id="email" name="email" type="text" class="peer h-10 w-72 border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-rose-600" placeholder="john@doe.com" />
-                            <label for="email" class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-0 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Username or email</label>
+                            <input id="email" name="email" type="text" class="peer h-10 w-72 pt-1 pl-2 border border-gray-300 bg-gray-100 text-gray-900 placeholder-transparent focus:outline-none focus:border-rose-600" placeholder="john@doe.com" />
+                            <label for="email" class="absolute pl-2 pt-1 left-0 -top-1.5 text-gray-600 text-xs transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-1 peer-focus:text-gray-600 peer-focus:text-xs">Username or email</label>
                         </div>
                     </div>
                     <div class="flex flex-col mb-6">
                         <div class="relative">
-                            <input id="email" name="email" type="password" class="peer h-10 w-72 border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-rose-600" placeholder="john@doe.com" />
-                            <label for="email" class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Password</label>
+                        <input id="password" name="password" type="password" class="peer h-10 w-72 pt-1 pl-2 border border-gray-300 bg-gray-100 text-gray-900 placeholder-transparent focus:outline-none focus:border-rose-600" placeholder="*******" />
+                            <label for="password" class="absolute pl-2 pt-1 left-0 -top-1.5 text-gray-600 text-xs transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-1 peer-focus:text-gray-600 peer-focus:text-xs">Password</label>
                         </div>
                     </div>
                     <div class="flex w-full">
